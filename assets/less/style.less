@@ -4,10 +4,10 @@
 // Base Styles
 @import 'slices/base.less';
 
-body{
-	padding: 0;
-	margin: 0;
-}
+// body{
+// 	padding: 0;
+// 	margin: 0;
+// }
 
 // div{
 // 	border: 1px solid black;
@@ -43,70 +43,66 @@ ul{
 
 /*HEADER*/
 
- .header{
-	height: 160px;
- }
- .logo{
-   height: 160px;
-   background-image: url(../images/IsolaDiBali_logo-01.png);
-   background-size:520px 330px;
-   background-repeat: no-repeat;
-   background-position: -119px -85px;
-   cursor: pointer;
-   
 
+.header{
+	height: 100px;
 }
-.menu{
-	
-	height: 160px;
-	padding: 0;
-	
 
-}
-.menu ul{
-	color:@nav;
-    text-align: right;
-    margin-top: 30px;
-    float: right;
+.menu li a{
+
 	font-size: 15px;
-	
+	font-weight:bold;
+
+}
+
+.menu ul:last-child{
+	margin-right: 0;
+}
+
+.menu li{
+	text-decoration: underline;
+}
+
+.navbar-brand{
+	width: 200px;
+	height: 100px;
+	background-image: url(../images/Logo-1.png);
+	background-repeat: no-repeat;
+   // background-size: cover;
+   
+}
+
+.dugme{
+	background-color: darkred;
 }
 
 
-.menu ul li{
 
-	font-family: sans-serif;
-    margin-right: 20px;
-    text-decoration: underline;
-	display: inline;
-}
 
-.menu ul li:last-child{
-  margin-right: 0;
-}
-.menu ul li:hover{
-	color: @nav-hover;
-	cursor:pointer;
-}
+
+
 
 
 
 
 /*HERO*/
 
-.hero{
+// .hero{
 	
-	height: 600px;
-	background-image: url(../images/Isola-di-Bali-hero.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin-bottom: 100px;
+// 	height: 600px;
+// 	background-image: url(../images/Isola-di-Bali-hero.png);
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	margin-bottom: 100px;
 
-}
+// }
 
 .hero_cont{
 	border-bottom:1px solid @zlatna;
+}
 
+.slideshoow{
+	margin-bottom: 50px;
 }
 
 /*end of HERO*/
@@ -124,7 +120,7 @@ ul{
 
 .o_nama h1{
 	text-align: left;
-   
+
 }
 
 .features{
@@ -245,9 +241,9 @@ ul{
 	width: 20px;
 	height: 20px;
 	float: right;
-    margin: 5px;
-    border:1px solid black;
-    cursor: pointer;
+	margin: 5px;
+	border:1px solid black;
+	cursor: pointer;
 }
 
 .napred{
@@ -256,7 +252,7 @@ ul{
 }
 .nazad{
 	background-image: url(../images/levo.png);
-    background-size: cover;	
+	background-size: cover;	
 }
 
 .kupci{
@@ -272,7 +268,7 @@ ul{
 	margin-bottom: 30px;
 }
 
- 
+
 
 
 /*end of utisci*/
@@ -350,9 +346,9 @@ ul{
 	background-image: url(../images/najprodavanije9.png);
 }
 
- .opis_slika{
+.opis_slika{
 	height: 121px;
- 	background-repeat: no-repeat; 
+	background-repeat: no-repeat; 
 
 }
 
@@ -376,8 +372,8 @@ ul{
 /*footer*/
 
 .footer{
-.borderTop;
-height: 200px;
+	.borderTop;
+	height: 200px;
 
 }
 
