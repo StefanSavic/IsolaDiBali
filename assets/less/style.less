@@ -4,14 +4,6 @@
 // Base Styles
 @import 'slices/base.less';
 
-// body{
-// 	padding: 0;
-// 	margin: 0;
-// }
-
-// div{
-// 	border: 1px solid black;
-// }
 
 @braon:#4b1204;
 @zlatna:#cca981;
@@ -26,15 +18,15 @@
 	border-bottom:1px solid @zlatna;
 
 }
+.marginTop{
+	margin-top: 5px;
+}
 h1,h3{
 	text-align: left;
-
-
 }
 
 p{
-
-	color: @braon;
+   color: @braon;
 }
 
 ul{
@@ -68,9 +60,7 @@ ul{
 	height: 100px;
 	background-image: url(../images/Logo-1.png);
 	background-repeat: no-repeat;
-   // background-size: cover;
-   
-}
+ }
 
 .dugme{
 	background-color: darkred;
@@ -78,24 +68,9 @@ ul{
 
 
 
-
-
-
-
-
-
-
 /*HERO*/
 
-// .hero{
-	
-// 	height: 600px;
-// 	background-image: url(../images/Isola-di-Bali-hero.png);
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	margin-bottom: 100px;
 
-// }
 
 .hero_cont{
 	border-bottom:1px solid @zlatna;
@@ -105,194 +80,110 @@ ul{
 	margin-bottom: 50px;
 }
 
-/*end of HERO*/
-
-
 /*o_nama*/
 
 .o_nama{
+	
 	.borderTop;
 	.borderBottom;
-	height: 600px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	.marginTop;
 }
 
-.o_nama h1{
-	text-align: left;
-
+.naslovi{
+	margin: 0;
 }
 
-.features{
-	height: 80%;
 
+.gl-naslov {
+	padding: 0;
+	margin: 0;
 }
+.naslov{ 
+	position: relative;
+	height: 100%;
+	
+}
+
+.naslov h3,{
+	text-align: center;
+	margin-top: 210px;
+	font-weight: bold;
+}
+
+.naslov p{
+	margin-top: 30px;
+	text-align: center;
+	border-top: 1px solid @zlatna;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
 #o_kompaniji{
 	background-image: url(../images/o_kompaniji.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position:center 100px;
 }
-
 #bali_proizvodi{
 	background-image: url(../images/bali_proizvodi.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position:center 100px;
 }
+
 #namestaj_srbija{
 	background-image: url(../images/namestaj_srbija.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.top{
-	border-bottom: 2px solid @zlatna;
-}
-
-.top,.text{
-	height: 50%;
-	text-align: center;
-}
-
-.text{
-	margin-top: 20px;
+	background-position:center 100px;
 }
 
 
-.okruglo{
-	margin-top: 50px;
-	margin-left: 140px;
-	width: 90px;
-	height: 90px;
-	border-radius: 45px;
-	border: none;
-}
 
-/*end of O_NAMA*/
+
 
 /*NOVI PROIZVODI*/
 
 .ponuda{
-	height: 500px;
+	
 	.borderTop;
 	.borderBottom;
-
+	.marginTop;
 }
 
 .ponuda h1{
 	margin-top: 50px;
 	margin-bottom: 50px;
-
 }
-
 .novi_proizvodi{
 	height: 270px;
+	margin-bottom: 50px;
 }
 
 .slika1{
 	background-image: url(../images/u_ponudi1.png);
 	background-repeat: no-repeat;
-	
 }
 
 .slika2{
 	background-image: url(../images/u_ponudi2.png);
 	background-repeat: no-repeat;
-	
 }
 
 .slika3{
 	background-image: url(../images/u_ponudi3.png);
 	background-repeat: no-repeat;
-
-	
 }
 
 .slika4{
 	background-image: url(../images/u_ponudi4.png);
 	background-repeat: no-repeat;
-	
 }
-
-
-
-
-/*utisci kupaca*/
-
-.utisci{
-	margin-top: 5px;
-	.borderTop;
-	.borderBottom;
-	padding-bottom: 50px;
-}
-
-.kupac{
-	background-image: url(../images/kupac.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-
-}
-
-.utisci h1{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-.napred,.nazad{
-	width: 20px;
-	height: 20px;
-	float: right;
-	margin: 5px;
-	border:1px solid black;
-	cursor: pointer;
-}
-
-.napred{
-	background-image: url(../images/desno.png);
-	background-size: cover;
-}
-.nazad{
-	background-image: url(../images/levo.png);
-	background-size: cover;	
-}
-
-.kupci{
-	height: 180px;
-	border: 1px solid black;
-	border-left: none;
-}
-
-.utisak p{
-	margin-right: 70px;
-	margin-left: 40px;
-	margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-
-
-
-/*end of utisci*/
-
-
 /*info*/
 
 .info{
-	height: 600px;
+	
 	margin-top: 5px;
 	margin-bottom: 5px;
 	.borderTop;
 	.borderBottom;
-}
-
-.najprodavanije h3{
-	margin-left: -20px;
-}
-.kontakt h3{
-	margin-left: 300px;
-}
-
-.najprodavanije,.kontakt{
-	height: 100%;
 }
 
 .najprodavanije h3,.kontakt h3{
@@ -306,11 +197,13 @@ ul{
 	background-repeat: no-repeat;
 	background-size: 100px;
 }
-
+.kontakt h3{
+	margin-left: -16px;
+}
 
 .office,.mobilni,.adresa{
 	margin-bottom: 48px;
-	margin-left: 200px;
+	
 }
 
 .opis ul{
@@ -349,14 +242,12 @@ ul{
 .opis_slika{
 	height: 121px;
 	background-repeat: no-repeat; 
-
 }
 
 
 .kancelarija{
 	background-image: url(../images/office.png);
-	background-repeat: no-repeat; 
-	
+	background-repeat: no-repeat; 	
 }
 
 .mob{
@@ -367,14 +258,11 @@ ul{
 	background-image: url(../images/mapa.png);
 }
 
-
-
 /*footer*/
 
 .footer{
 	.borderTop;
-	height: 200px;
-
+	
 }
 
 
