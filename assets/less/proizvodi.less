@@ -1,12 +1,110 @@
-// Bootstrap
-@import 'bootstrap/bootstrap';
 
-// Base Styles
-@import 'slices/base.less';
+@url:'http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic';
 
+@braon:#4b1204;
+@zlatna:#cca981;
+@nav:#cca981;
+@nav-hover:#c31e2e;
 
-.kategorija  {
-
-	border: 1px solid black;
-	background: red;
+.borderTop{
+    border-top:1px solid @zlatna;
 }
+
+.borderBottom{
+    border-bottom:1px solid @zlatna;
+
+}
+.marginTop{
+    margin-top: 5px;
+}
+
+.marginBottom{
+    margin-bottom: 5px;
+}
+h1,h2,h3{
+    text-align: center;
+     font-family: 'Rokkitt',serif;
+}
+p{
+   color: @braon;
+   font-family: 'Rokkitt',serif;
+}
+ul{
+    color: @braon;
+}
+//************************************************* PROIZVODI **********************************************
+// *********************************************************************************************************
+ .namestaj-row{
+	.borderTop;
+	.marginTop;
+	.borderBottom;
+
+ }
+ .namestaj-srbija{
+ 	margin: 0 auto;
+ 	margin-top: 15px;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-image: url(../images/namestaj-srbija.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;  
+
+ }
+
+ .text{
+ 	  margin: 0 auto;
+      width: 700px;
+      // height: 100px;
+      font-size: 22px;
+      transition:transform,0.3s,linear;
+ }
+
+ .text:hover{
+ 	transform:scale(1.1);
+ 	cursor:pointer;
+ }
+
+.preview-slike{
+	display: inline;
+	height: 200px;
+}
+.preview-slike ul li{
+	display: inline;
+}
+
+
+.preview-slike ul li img{
+	height: 200px;
+
+}
+//--------------- bali proizvodi--------------
+ .bali-kont{
+ 	.marginTop;
+ 	.borderTop;
+ 	.borderBottom;
+ }
+.bali{
+ 	margin: 0 auto;
+ 	margin-top: 15px;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-image: url(../images/bali-proizvodi.png);
+ 	background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+// --------------dekor proizvodi--------------- 
+  .dekor-kont{
+  	.marginTop;
+ 	.borderTop;
+  }
+ .dekor{
+ 	
+ 	margin: 0 auto;
+ 	margin-top: 15px;
+ 	width: 100px;
+ 	height: 100px;
+ 	background-image: url(../images/dekor-proizvodi.png);
+ 	background-repeat: no-repeat;
+    background-size: cover;
+ }

@@ -1,0 +1,119 @@
+
+@braon:#4b1204;
+@zlatna:#cca981;
+@nav:#cca981;
+@nav-hover:#c31e2e;
+
+.borderTop{
+    border-top:1px solid @zlatna;
+}
+
+.borderBottom{
+    border-bottom:1px solid @zlatna;
+
+}
+.marginTop{
+    margin-top: 5px;
+}
+
+.marginBottom{
+    margin-bottom: 5px;
+}
+h1,h2,h3{
+    text-align: center;
+     font-family: 'Rokkitt',serif;
+}
+p{
+   color: @braon;
+   font-family: 'Rokkitt',serif;
+}
+ul{
+    color: @braon;
+}
+/*HEADER*/
+
+ 
+.heder{
+	
+	position: relative;
+	background-color: white;
+}	
+.navigacija{
+     .borderBottom;
+     margin: 0;
+ }
+ .alo	{
+ 	color:@nav-hover;
+ }
+.menu{
+	background-color: white;
+}
+.menu ul{
+	margin-top: 60px;
+    margin-right: 15px;
+}
+.menu li{
+	
+    margin-right: 15px;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	border-bottom:2px solid @zlatna; 
+}
+
+.menu li:hover{
+	border-bottom:2px solid @nav-hover;
+} 
+.menu li:active{
+	border-bottom:2px solid @nav-hover;
+} 
+
+.menu li a{
+    
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 900;
+  
+}
+.menu ul li a:active{
+	color: @nav-hover;
+}
+
+
+
+.navbar-brand{
+    position: relative;
+    top:7px;
+    left:20px;
+	width: 200px;
+	height: 120px;
+	background-image: url(../images/Logo-1.png);
+	background-repeat: no-repeat;
+
+ }
+
+ .navbar-brand:hover{
+ 	transform:scale(1.2);
+ }
+
+
+.dugme{
+	background-color: @nav-hover;
+}
+
+.dugme:hover{
+	background-color: black;
+}
+
+
+/*footer*/
+
+.footer{
+	.borderTop;
+	.marginTop;
+
+	h3{
+		margin-left: 20px;
+	}
+}
+

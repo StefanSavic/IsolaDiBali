@@ -9,185 +9,166 @@
     <!--  <meta itemprop="image" content=""> -->
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Rokkitt' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="build/style.css">
-    <title>Proizvodi</title>
+    <link rel="stylesheet" href="build/pgwslideshow.css">
+    <title>IsolaDiBali- Proizvodi</title>
 </head>
 <body>
 
-<div class="container">
-        <!-- header/navigacija-->
-<div class="row header">
-    <nav class="navbar navbar-default navbar-static-top">
+<div class="container-fluid glavni">
+
+<!--***************** HEDER/NAVIGACIJA**********************-->
+<!--********************************************************-->
+   
+  <div class="contaier-fluid nav-cont ">
+    <div class="row header wrap">
+      <nav class="navbar navbar-default navbar-static-top navigacija">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed dugme" data-toggle="collapse"  data-target="#moji-linkovi">
-                    <span class="sr-only lin">Toggle navigation</span>
-                    <span class="icon-bar lin"></span>
-                    <span class="icon-bar lin"></span>
-                    <span class="icon-bar lin"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"></a>
-            </div>
+          <div class="navbar-header head">
+            <button type="button" class="navbar-toggle collapsed dugme" data-toggle="collapse"  data-target="#moji-linkovi">
+              <span class="sr-only lin">Toggle navigation</span>
+              <span class="icon-bar lin"></span>
+              <span class="icon-bar lin"></span>
+              <span class="icon-bar lin"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"></a>
+          </div>
 
-            <div class="collapse navbar-collapse menu" id="moji-linkovi">
-              <ul class="nav navbar-nav navbar-right text-uppercase menu">
-                <li><a href="index.html">home</a></li>
-                <li><a href="proizvodi.html">proizvodi</a></li>
-                <li><a href="#">gde kupiti</a></li>
-                <li><a href="#">novosti</a></li>
-                <li><a href="#">kontakt</a></li>
-              </ul>
-            </div>
-        
+          <div class="collapse navbar-collapse menu" id="moji-linkovi">
+            <ul class="nav navbar-nav navbar-right text-uppercase menu">
+              <li><a href="index.html" class="active">o nama</a></li>
+              <li><a href="proizvodi.html">proizvodi</a></li>
+              <li><a href="gde_kupiti.html">gde kupiti</a></li>
+              
+            </ul>
+          </div>
+          </div>
         </div>
-    </nav>
+      </nav>
+    </div>
+  </div>
 
-</div>  
-<!-- Galerija  -->
-
-<div class="row kategorija">
-<ul>
-  <li><a class="text-uppercase" href="#">Sve</a></li>
-  <li><a class="text-uppercase" href="#">ukrasi</a></li>
-  <li><a class="text-uppercase" href="#">lampe</a></li>
-  <li><a class="text-uppercase" href="#">fotelje</a></li>
-  <li><a class="text-uppercase" href="#">komode</a></li>
-</ul>
+<!--***************** PROIZVODI*****************************-->
+<!--********************************************************--> 
+  <div class="container-fluid">
+    <div class="row namestaj-row">
+      <div class="namestaj-srbija"></div>
+      <div class="text">
+        <h1>Nameštaj iz Srbije</h1>
+        <p>Komadi nameštaja izrađeni su od domaćeg drveta jove.Izradu nameštaja vršimo po zamisli i sugestijama kupca.Dimenzije određujete Vi u zavisnosti od Vašeg prostora.</p>
+      </div>
+    
+      
+    <ul class="pgwSlideshow">
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija1.jpg" alt="" data-description="Nameštaj iz Srbije"></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija2.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija3.jpg" alt="" data-large-src=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija4.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija5.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija6.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija7.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija8.jpg" alt=""></li>
+    <li><img src="images/Namestaj_srbija/Namestaj-srbija9.jpg" alt=""></li>
   
-</div>
-
-<div class="row galerija">
-  <div class="col-md-3 svi svi_proizvodi2"></div>
-  <div class="col-md-3 svi svi_proizvodi1"></div>
-  <div class="col-md-3 svi svi_proizvodi3"></div>
-  <div class="col-md-3 svi svi_proizvodi4"></div>
-</div>
-
-<div class="row galerija">
-  <div class="col-md-3 svi svi_proizvodi5"></div>
-  <div class="col-md-3 svi svi_proizvodi5"></div>
-  <div class="col-md-3 svi svi_proizvodi6"></div>
-  <div class="col-md-3 svi svi_proizvodi6"></div>
-</div>
-
-<div class="row galerija">
-  <div class="col-md-3 svi svi_proizvodi2"></div>
-  <div class="col-md-3 svi svi_proizvodi3"></div>
-  <div class="col-md-3 svi svi_proizvodi4"></div>
-  <div class="col-md-3 svi svi_proizvodi6"></div>
-</div>
-
-<div class="row paginacija">
-<nav class="stranice">
-  <ul class="pagination">
     <li>
-      <a href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
+          <a href="" target="_blank">
+              <img src="images/Namestaj_srbija/Namestaj-srbija10.jpg" alt="">
+          </a>
     </li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li>
-      <a href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+      
+    </ul>
+       
+    </div> 
+  </div> 
 
-</div>
-<!-- info -->
-<div class="row info">
-
-    <div class="col-md-6 najprodavanije">
-
-        <div class="row gl-naslov"><h3 class="text-uppercase">naprodavanije</h3></div>    
+  
+   
+<!-- Bali proizvodi -->
+  <div class="container-fluid bali-kont">
+    <div class="row bali-row">
+      <div class="bali"></div>
+      <div class="text">
+        <h1>Bali Proizvodi</h1>
+        <p>Ručno rađeni komadi od tikovine,sedef školjki,bambusa,lista kokosa,vulkanskog kamena i drugih prirodnih materijala
+        tipičnih za Indoneziju.Krase ih jednostavne linije i fina izrada,a svojim dizajnom lako se uklapaju u svaki ambijent.</p>
+      </div>
+      
+      <ul class="pgwSlideshow">
+        <li><img src="images/Bali_proizvodi/bali-proizvodi1.jpg" alt="" data-description="Bali Proizvodi"></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi2.jpg" alt=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi3.jpg" alt="" data-large-src=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi4.jpg" alt=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi5.jpg" alt=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi6.jpg" alt=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi7.jpg" alt=""></li>
+        <li><img src="images/Bali_proizvodi/bali-proizvodi9.jpg" alt=""></li>
         
+  
+        <li>
+              <a href="" target="_blank">
+                  <img src="images/Bali_proizvodi/bali-proizvodi10.jpg" alt="">
+              </a>
+        </li>
+      
+    </ul>
 
-        <div class="row">
-         <div class="col-md-4 slike najprodavanije1"></div>
-         <div class="col-md-4 slike najprodavanije2"></div>
-         <div class="col-md-4 slike najprodavanije3"></div>
-     </div>
-
-     <div class="row">
-         <div class="col-md-4 slike najprodavanije4"></div>
-         <div class="col-md-4 slike najprodavanije5"></div>
-         <div class="col-md-4 slike najprodavanije6"></div>
-     </div>
-
-     <div class="row">
-         <div class="col-md-4 slike najprodavanije7"></div>
-         <div class="col-md-4 slike najprodavanije8"></div>
-         <div class="col-md-4 slike najprodavanije9"></div>
-     </div>
-
-
- </div>
- 
- <div class="col-md-6 kontakt">
-   <div class="row gl-naslov"><h3 class="text-uppercase">kontakt</h3></div>
-    
-    
-    <div class="row office">
-        <div class="col-md-3 opis_slika kancelarija"></div>
-        <div class="col-md-9 opis">
-            <ul>
-                <li>Office@isoladibali.com</li>
-                <li>prodaja@isoladibali.com</li>
-            </ul>
-        </div>
     </div>
+  </div> 
+  
+<!-- DEKOR -->
+  <div class="container-fluid dekor-kont">
+    <div class="row dekor-row">
+      <div class="dekor"></div>
+      <div class="text">
+       <h1>Dekor</h1>
+        <p>Veliki izbor dekorativnih predmeta koji ce upotpuniti i oplemeniti vas zivotni prostor.</p>
+      </div>
 
-    <div class="row mobilni">
-        <div class="col-md-3 opis_slika mob"></div>
-        <div class="col-md-9 opis">
-            <ul>
-                <li>+381 11 228 1295</li>
-                <li>+381 55 321 4321</li>
-                <li><strong>09:00-19:00</strong></li>    
-
-            </ul>
-        </div>
+      <ul class="pgwSlideshow">
+        <li><img src="images/Dekor/dekor1.jpg" alt="" data-description="Dekor"></li>
+        <li><img src="images/Dekor/dekor2.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor3.jpg" alt="" data-large-src=""></li>
+        <li><img src="images/Dekor/dekor4.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor5.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor6.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor7.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor8.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor9.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor10.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor11.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor12.jpg" alt=""></li>
+        <li><img src="images/Dekor/dekor13.jpg" alt=""></li>
+  
+        <li>
+              <a href="" target="_blank">
+                  <img src="images/Dekor/dekor14.jpg" alt="">
+              </a>
+        </li>
+      
+    </ul>
+      
     </div>
+  </div> 
+  
+<!--***************** FOOTER *******************************-->
+<!--********************************************************-->
+
+  <div class="container-fluid">
+    <div class="row footer">
+      <div class="col-lg-12 footer"><h3>Copyright 2015. Isola di Bali</h3></div>
+    </div>   
+  </div>  
 
 
-    <div class="row adresa">
-        <div class="col-md-3 opis_slika map"></div>
-        <div class="col-md-9 opis">
-            <ul>
-                <li class="text-capitalize">ulica petra petrovica</li>
-                <li>11080</li>
-                <li>Srbija</li>
-
-            </ul>
-        </div>
-    </div>
-
-
-
-
-</div>
-
-</div> 
-
-
-
-<div class="row footer">
-    <div class="col-lg-12 footer"><h3>Copyright 2015. Isola di Bali</h3></div>
-</div>   
-
-</div>
 </div>
 <!-- Scripts -->
 <script src="build/jquery.plugins.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="build/scripts.min.js"></script>
+<script src="build/pgwslideshow.min.js"></script>
 
 </body>
 </html>
